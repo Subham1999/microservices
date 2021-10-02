@@ -1,0 +1,44 @@
+create table profile (
+   user_name varchar(10) primary key,
+   first_name varchar(20),
+   last_name varchar(20),
+   nick_name varchar(10),
+   date_of_birth date,
+   date_of_join date,
+   email varchar(20),
+   password varchar(5),
+   image_url varchar(70),
+   image_url_last_update date,
+   bio varchar(100),
+   bio_last_update date);
+
+------------------------------------
+INSERT INTO profile values (
+	'sub_sa',
+	'Subham',
+	'Santra',
+	'pitu',
+	'1999-02-02',
+	'2021-01-15',
+	'subhamsantra2016@gmail.com',
+	'r@123',
+	'C:\\Users\\Admin\\Pictures\\Camera Roll\\WIN_20210503_09_10_51_Pro.jpg',
+	'2021-02-18',
+	'I Love Java',
+	'2021-06-26'
+);
+
+INSERT INTO profile values (
+	'sdg_07',
+	'Soumyadeep',
+	'Guin',
+	'Soumyo',
+	'1999-05-14',
+	'2021-01-15',
+	'soumydeep@gmail.com',
+	'pl@027',
+	'C:\\Users\\Admin\\Pictures\\Camera Roll\\WIN_20210503_09_10_51_Pro.jpg',
+	'2021-02-18',
+	'I Love JavaScript',
+	'2021-06-26'
+);
